@@ -2,8 +2,8 @@
 date_default_timezone_set('Asia/Jakarta');
 include "function.php";
 echo color("green","# # # # # # # # # # # # # # # # # # # # # # # \n");
-echo color("blue","  [♥]  Time  : ".date('[d-m-Y] [H:i:s]')."   \n");
-echo color("red","   [♡] TOLONG DIBACA DULU SEBELUM MENGGUNAKAN SC \n");
+echo color("blue"," [♥]  Time  : ".date('[d-m-Y] [H:i:s]')."   \n");
+echo color("red","  [♡] TOLONG DIBACA DULU SEBELUM MENGGUNAKAN SC \n");
 echo color("purple","[♥] NGETIK NOMORNYA BEGINI YA 62xxxxxxxxxx \n");
 echo color("yellow","[♥] KALO GA NGAMBIL OTOMATIS GAGAL BERARTI \n");
 echo color("blue"," [♡] MAKLUM LAH NAMANYA JUGA SC GRATISAN \n");
