@@ -123,7 +123,7 @@ echo "\e[89m▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬�
         echo color("blue",".");
         sleep(10);
         }
-        $code1 = request('/go-promotions/v1/promotions/enrollments', $token, '{"promo_code":"COBAGOFOOD260520"}');
+        $code1 = request('/go-promotions/v1/promotions/enrollments', $token, '{"promo_code":"COBAGOFOOD0906"}');
         $message = fetch_value($code1,'"message":"','"');
         echo "\n".color("red","🔓▶️ Message: ".$message);
         echo "\n".color("yellow","🔐▶️ INI VOC B");
@@ -133,7 +133,7 @@ echo "\e[89m▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬�
         sleep(10);
         }
         sleep(2);
-        $boba09 = request('/go-promotions/v1/promotions/enrollments', $token, '{"promo_code":"COBAGOFOOD160420B"}');
+        $boba09 = request('/go-promotions/v1/promotions/enrollments', $token, '{"promo_code":"COBAGOFOOD0906"}');
         $messageboba09 = fetch_value($boba09,'"message":"','"');
         echo "\n".color("blue","🔓▶️ Message: ".$messageboba09);
         sleep(2);
